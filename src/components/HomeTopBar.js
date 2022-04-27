@@ -1,11 +1,15 @@
 import React from "react";
-import ill from "../app/assets/images/illu.png";
+import heroImage from "../app/assets/images/hero.svg";
 
 const HomeTopBar = () => {
   return (
     <div className=" lg:px-1 py-8 ">
       <div className=" lg:flex lg:flex-row-reverse lg:justify-between lg:items-center  ">
-        <img src={ill} alt="failed??" className=" lg:w-1/2  " />
+        <img
+          src={heroImage}
+          alt="hero with all cloud providers"
+          className=" lg:w-1/2  "
+        />
         <div className="  lg:w-full px-5 lg:px-8">
           <h3 className=" text-white font-semibold lg:ml-8 mt-4 lg:text-5xl  lg:pb-4 text-2xl   ">
             We don't just build websites, we build websites that SELLS
