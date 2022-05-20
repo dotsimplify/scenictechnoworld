@@ -1,15 +1,34 @@
+// tailwind.config.js
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./dummy/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        Sans: ["OpenSans", "sans-serif"],
+        segoe: ["Segoe", "Arial", "sans-serif"],
+      },
+      lineHeight: {
+        "extra-loose": "4rem",
+      },
+      backgroundColor: {
+        "dark-bg": "#000",
+        "dark-bg-2": "#22343D",
+        "dark-bg-3": "#f3f4f6",
+        "theme-orange": "#F2994A",
       },
       colors: {
         primary: "#2580b5",
       },
       backgroundImage: {
-        BgShape: "url('./app/assets/images/map.jpg')",
+        BgShape:
+          "url('https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
+        conttactUs:
+          "url('https://img.freepik.com/free-psd/3d-cartoon-character-man-about-send-letter_1150-56209.jpg?w=900')",
       },
       dropShadow: {
         CardShadow: "0px 10px 15px -3px rgba(0,0,0,0.1)",
@@ -31,11 +50,26 @@ module.exports = {
             opacity: "1",
           },
         },
-      },
-      animation: {
-        "fade-in-down": "fade-in-down 1s ease-out",
+        floating: {
+          "0%": { transform: "translate(0,  0px)" },
+          " 50%": { transform: "translate(0, 5px)" },
+          "100%": { transform: "translate(0, -0px)" },
+        },
+        animation: {
+          floating: "floating 3s linear infinite ease-in-out",
+
+          "fade-in-down": "fade-in-down 1s ease-out",
+        },
       },
     },
   },
+  variants: {
+    extend: {
+      fontFamily: ["hover", "focus"],
+    },
+  },
   plugins: [],
+  corePlugins: {
+    fontFamily: true,
+  },
 };

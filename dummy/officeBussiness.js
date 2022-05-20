@@ -1,0 +1,207 @@
+import { MdArrowRight, MdDoneAll } from "react-icons/md";
+import { FaTimes } from "react-icons/fa";
+import { SiMicrosoftexchange } from "react-icons/si";
+
+export const officeBusiness = [
+  {
+    id: 0,
+    item: "",
+    version: "",
+  },
+  {
+    id: 1,
+    item: "Office-365 Business ",
+    version: "Essential",
+  },
+  {
+    id: 2,
+    item: "Office-365 Business",
+    version: "",
+  },
+  {
+    id: 3,
+    item: "Office-365 Premiume",
+    version: "",
+  },
+];
+
+export const bussinessDesc = [
+  {
+    id: 0,
+    keyPoint: "Maximum Users",
+    plus: "300",
+    E1: "300",
+    E3: "300",
+  },
+  {
+    id: 1,
+    keyPoint: "Online File Storage (GB)",
+    plus: 1024,
+    E1: 1024,
+    E3: 1024,
+  },
+  {
+    id: 2,
+    keyPoint: "Office Web Applications",
+    plus: <MdDoneAll className=" text-green-500" />,
+    E1: <MdDoneAll className=" text-green-500" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+  {
+    id: 3,
+    keyPoint: "Up-To-Date Desktop Applications",
+    plus: <FaTimes className=" text-red-600" />,
+    E1: <MdDoneAll className=" text-green-500" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+
+  {
+    id: 4,
+    keyPoint: "Installation on Multiple Devices",
+    plus: <FaTimes className=" text-red-600" />,
+    E1: "5 PC/Mac 5 Tablet 5 Phone Per User",
+    E3: "5 PC/Mac 5 Tablet 5 Phone Per User",
+  },
+  {
+    id: 5,
+    keyPoint: "Business-Class Email With Custom Email Domain Adress",
+    plus: <MdDoneAll className=" text-green-500" />,
+    E1: <FaTimes className=" text-red-600" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+  {
+    id: 6,
+    keyPoint: "MailBox size",
+    plus: 50,
+    E1: <FaTimes className=" text-red-600" />,
+    E3: 50,
+  },
+
+  {
+    id: 7,
+    keyPoint: "Host Online & VideoConfresing Meetings",
+    plus: "Up To 250 People",
+    E1: <FaTimes className=" text-red-600" />,
+    E3: "Up To 250 People",
+  },
+  {
+    id: 8,
+    keyPoint: "Company-Wide Internet And Team Sites With SharePoint",
+    plus: <MdDoneAll className=" text-green-500" />,
+    E1: <FaTimes className=" text-red-600" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+  {
+    id: 9,
+    keyPoint: "Schedule Appointments Online Booking With Microsoft Bookings",
+    plus: <MdDoneAll className=" text-green-500" />,
+    E1: <FaTimes className=" text-red-600" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+];
+export const businessApplicationData = [
+  {
+    id: 0,
+    name: "Exchange",
+    icon: require("../app/assets/images/exchange.png"),
+    ProPlus: "Online",
+    E1: <FaTimes className=" text-red-600" />,
+    E3: "Online",
+  },
+  {
+    id: 1,
+    name: "OutLook",
+    icon: require("../app/assets/images/outlook.png"),
+    ProPlus: "Web Version Only",
+    E1: "Desktop And Web Version",
+    E3: "Desktop And Web Version",
+  },
+  {
+    id: 2,
+    name: "Microsoft Word",
+    icon: require("../app/assets/images/word.png"),
+    ProPlus: "Web Version Only",
+    E1: "Desktop And Web Version",
+    E3: "Desktop And Web Version",
+  },
+  {
+    id: 3,
+    name: "Excel",
+    icon: require("../app/assets/images/excel.png"),
+    ProPlus: "Web Version Only",
+    E1: "Desktop And Web Version",
+    E3: "Desktop And Web Version",
+  },
+  {
+    id: 4,
+    name: "Publisher",
+    icon: require("../app/assets/images/publisher.png"),
+    ProPlus: <FaTimes className=" text-red-600" />,
+    E1: "Desktop (Pc Only)",
+    E3: "Desktop (Pc Only)",
+  },
+  {
+    id: 5,
+    name: "PowerPoint",
+    icon: require("../app/assets/images/pp.png"),
+    ProPlus: "Web Version Only",
+    E1: "Desktop And Web Version",
+    E3: "Desktop And Web Version",
+  },
+  {
+    id: 6,
+    name: "OneNote",
+    icon: require("../app/assets/images/oneNote.png"),
+    ProPlus: "Web Version Only",
+    E1: "Desktop And Web Version",
+    E3: "Desktop And Web Version",
+  },
+  {
+    id: 7,
+    name: "OneDrive",
+    icon: require("../app/assets/images/onedrive.png"),
+    ProPlus: <MdDoneAll className=" text-green-500" />,
+    E1: <MdDoneAll className=" text-green-500" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+  {
+    id: 8,
+    name: "Skype For Business",
+    icon: require("../app/assets/images/skype.png"),
+    ProPlus: <MdDoneAll className=" text-green-500" />,
+    E1: <FaTimes className=" text-red-600" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+  {
+    id: 9,
+    name: "Yammer",
+    icon: require("../app/assets/images/yammer.png"),
+    ProPlus: <MdDoneAll className=" text-green-500" />,
+    E1: <FaTimes className=" text-red-600" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+  {
+    id: 10,
+    name: "Teams",
+    icon: require("../app/assets/images/teams.png"),
+    ProPlus: <MdDoneAll className=" text-green-500" />,
+    E1: <FaTimes className=" text-red-600" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+  {
+    id: 11,
+    name: "Sharepoint",
+    icon: require("../app/assets/images/sharepoint.png"),
+    ProPlus: <MdDoneAll className=" text-green-500" />,
+    E1: <FaTimes className=" text-red-600" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+  {
+    id: 12,
+    name: " MS Access",
+    icon: require("../app/assets/images/acess.png"),
+    ProPlus: <FaTimes className=" text-red-600" />,
+    E1: <MdDoneAll className=" text-green-500" />,
+    E3: <MdDoneAll className=" text-green-500" />,
+  },
+];
