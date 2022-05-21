@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <div
       style={{ position: "fixed", zIndex: "99", top: 0 }}
-      className={`bg-sky-500 w-full py-2 relative `}
+      className={`bg-sky-500 w-full py-1 relative `}
     >
       <div className=" hidden lg:block ">
         <div className="flex justify-between px-8">
@@ -35,14 +35,14 @@ const Header = (props) => {
             </div>
           </div>
           <div className=" w-1/3  justify-center items-center flex ">
-            <Link href="contact">
-              <button className=" bg-green-600 px-5 py-2 text-white  rounded">
-                ContactUs
+            <Link href="/about-us">
+              <button className="  text-white transition-all duration-500 ease-in-out hover:underline hover:underline-offset-8">
+                About
               </button>
             </Link>
-            <Link href="/about-us">
-              <button className=" bg-yellow-400 px-5 py-2 text-white rounded ml-6">
-                AboutUs
+            <Link href="/contact">
+              <button className=" bg-yellow-400 px-5 py-1 text-white rounded ml-6">
+                Contact
               </button>
             </Link>
           </div>
@@ -55,7 +55,7 @@ const Header = (props) => {
               <SmallLogo />
             </div>
             <h3 className=" text-white font-semibold ml-2 lg:text-xl relative">
-              Scenic Technoworld
+              Scenic Techno World
             </h3>
           </div>
           {/*  Mobile Menu Icon */}
