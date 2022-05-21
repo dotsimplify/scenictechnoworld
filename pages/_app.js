@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../styles/global.css";
 import "tailwindcss/tailwind.css";
 import Head from "next/head";
-import Header from "../app/layouts/Header2";
-import Footer from "../app/layouts/Footer";
 import Layout from "../app/layouts/Layout";
 
 function MyApp({ Component, pageProps }) {
-  const [loading, setLoading] = React.useState(false);
   return (
     <>
       <Head>

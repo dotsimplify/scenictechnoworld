@@ -17,12 +17,12 @@ const Header = (props) => {
                   <SmallLogo className=" h-full w-full" />
                 </div>
                 <h3 className=" font-semibold text-xl ml-5 text-white">
-                  SCENIC TECHNOWORLD
+                  SCENIC TECHNO WORLD
                 </h3>
               </div>
             </Link>
             <div className=" w-1/3 flex ml-6 justify-between px-24">
-              <Link href="products">
+              <Link href="/products">
                 <button className=" pr-12 text-white transition-all duration-500 ease-in-out hover:underline hover:underline-offset-8">
                   Products
                 </button>
