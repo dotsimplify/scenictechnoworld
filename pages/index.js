@@ -13,15 +13,12 @@ const Home = () => {
         <HomeTopBar />
       </div>
       <div className=" relative">
-        <div
-          style={{ left: "10%", right: "10%", bottom: "-15rem" }}
-          className=" absolute bg-gray-50 rounded-md border"
-        >
+        <div className=" absolute  left-[10rem] -bottom-[13rem] right-1/12 right-[10rem] bg-gray-50 rounded-md border">
           <ActionCard />
         </div>
       </div>
 
-      <div className=" bg-sky-100 pb-12 mt-[40rem] md:mt-80 lg:mt-72 justify-center  md:flex md:flex-col md:items-center px-8 ">
+      <div className=" bg-sky-100 pb-12 mt-[40rem] md:mt-80 lg:mt-32 pt-24 justify-center  md:flex md:flex-col md:items-center px-8 ">
         <h3 className=" text-xl pt-10 md:text-[2rem] text-sky-500">
           Share Embaded 3D modeles AnyWhere online
         </h3>

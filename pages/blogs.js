@@ -4,7 +4,7 @@ import BlogsList from "../components/blogs/BlogsList";
 const Blogs = () => {
   return (
     <div>
-      <div className=" bg-white w-full py-10 flex items-center justify-center">
+      <div className=" bg-white w-full py-10 flex items-center justify-center lg:mt-20">
         <h3 className=" font-bold text-3xl text-gray-500">Read Our Blogs</h3>
       </div>
       <BlogsList />
