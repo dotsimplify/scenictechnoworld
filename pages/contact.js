@@ -153,7 +153,7 @@ const ContactUs = () => {
           <div className=" bg-conttactUs bg-cover lg:w-1/2  lg:px-6 h-[40rem]  relative bg-center  ">
             <div className=" flex items-center pt-8 pl-4 ">
               <MdLocationPin />
-              <h3 className=" ml-4 text-gray-800 ">Siwan Bihar India</h3>
+              <h3 className=" ml-4 text-gray-800 ">New Delhi India</h3>
             </div>
             <div
               className="   absolute bottom-6 md:flex  right-0 left-0 mx-2 md:w-7/12
