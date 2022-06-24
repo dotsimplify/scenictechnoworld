@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import { keyPoints } from "../../dummy/productsKey";
 import { MdArrowRight } from "react-icons/md";
 import {
   description,
   enterpriseApplicationData,
   relabilityData,
   securityData,
-} from "../../dummy/officeEnterpriseData";
+} from "../../usefulData/officeEnterpriseData";
 import CompareTable from "./CompareTable";
 import SecurityTable from "./SecurityTable";
 import RelabilityTable from "./RelabilityTable";
@@ -16,13 +15,14 @@ import TableHeader from "./TableHeader";
 import {
   businessApplicationData,
   bussinessDesc,
-} from "../../dummy/officeBussiness";
+} from "../../usefulData/officeBussiness";
 import {
   ApplicationIcon,
   CompareIcon,
   CredibilityIcon,
   SecurityIcon,
 } from "../../app/assets/Icons";
+import { keyPoints } from "../../usefulData/productsKey";
 
 const ProductKeyPoints = () => {
   const [compare, setCompare] = useState(true);

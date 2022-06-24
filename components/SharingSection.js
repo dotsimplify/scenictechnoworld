@@ -1,5 +1,5 @@
 import React from "react";
-import { sharingData } from "../dummy/sharingData";
+import { sharingData } from "../usefulData/sharingData";
 
 const SharingSection = () => {
   return (

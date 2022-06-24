@@ -1,4 +1,5 @@
 import React from "react";
+import PricingPlan from "../PricingSection/PricingPlan";
 
 export const ProductDesc = (props) => {
   return (

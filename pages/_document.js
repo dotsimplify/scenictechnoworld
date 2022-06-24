@@ -10,7 +10,7 @@ class MyDocument extends Document {
     return (
       <Html className="">
         <Head>
-          <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
         </Head>
         <body className="font-segoe">
           <Main />

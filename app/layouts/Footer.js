@@ -6,7 +6,7 @@ import { Logo } from "../assets/Icons";
 
 const Footer = () => {
   return (
-    <div className="px-4 pt-16 mt-20 md:px-24 lg:px-8 bg-gray-200">
+    <div className="px-4 pt-10  md:px-24 lg:px-8 bg-gray-200">
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2">
           <div className="flex items-center">
@@ -94,7 +94,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <p className="text-sm text-gray-600">
-          © Copyright 2020 Lorem Inc. All rights reserved.
+          © Copyright 2020 SCENIC TECHNOWORLD All rights reserved.
         </p>
         <div className="flex   items-center justify-center mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <a

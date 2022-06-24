@@ -11,13 +11,14 @@ const HomeTopBar = () => {
           className=" lg:w-1/2  "
         />
         <div className="  lg:w-full px-5 lg:px-8">
-          <h3 className=" text-white font-semibold lg:ml-8 mt-4 lg:text-5xl  lg:pb-4 text-2xl   ">
+          <h3 className=" text-white font-semibold capitalize lg:ml-8 mt-4 lg:text-5xl  lg:pb-4 text-2xl   ">
             One point for all your cloud needs
           </h3>
           <h3 className=" text-gray-100 font-medium   lg:ml-8">
-            A successful website does three things: It attracts the right kinds
-            of visitors. Guides them to the main services or product you offer.
-            Collect Contact details for future ongoing relation.
+            Sonic Technoworld, your one-stop shop for all your office needs
+            Whether it's MS Office or Teleconferencing Services, we've got the
+            perfect solution for you. With over 20 years in the industry, you
+            can rely on us to keep your business running smoothly.
           </h3>
           <div className=" mt-8 lg:mt-10 lg:ml-2  lg:pb-10 ">
             <Link href="/products">

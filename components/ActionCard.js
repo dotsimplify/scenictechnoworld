@@ -12,7 +12,7 @@ const ActionCard = () => {
           />
         </div>
         <h3 className=" text-gray-800 text-sm mt-4">
-          Join millions of 3D creators and showcase your work
+          Providing Customers Trust in the New World of Cloud Solutions
         </h3>
       </div>
       <div className="mx-4 w-full ">
@@ -21,8 +21,8 @@ const ActionCard = () => {
           className=" object-fill w-full h-3/4"
           src="/images/cloud-2.jpg"
         />
-        <h3 className=" text-gray-800 text-sm mt-4">
-          Join millions of 3D creators and showcase your work
+        <h3 className=" text-gray-800 text-sm mt-4 ">
+          We do more than sell IT infrastructure: we help you reach your goals.
         </h3>
       </div>
       <div className=" w-full">
@@ -31,8 +31,8 @@ const ActionCard = () => {
           className=" object-fill w-full h-3/4"
           src="/images/cloud-3.png"
         />
-        <h3 className=" text-gray-800 text-sm mt-4">
-          Join millions of 3D creators and showcase your work
+        <h3 className=" text-gray-800 text-sm mt-4 text-justify">
+          Helping you make your ideas a reality
         </h3>
       </div>
     </div>

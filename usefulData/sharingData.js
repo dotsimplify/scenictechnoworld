@@ -21,7 +21,7 @@ export const sharingData = {
   second: [
     {
       id: 2,
-      title: " Works with all operating systems, browsers and devices.",
+      title: " Easy to use and fast",
       icon: <MdOutlineScreenSearchDesktop />,
     },
     {

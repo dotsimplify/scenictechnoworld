@@ -1,20 +1,7 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import CustomButton from "../CustomButton";
-import BeginnerCard from "./BeginnerCard";
-import ProCard from "./ProCard";
-import TeamCard from "./TeamCard";
 
-const PricingPlan = () => {
-  const [productData, setproductData] = useState([]);
-  useEffect(() => {
-    axios
-      .get(process.env.NEXT_PUBLIC_BASE_API_URL + "/products")
-      .then((res) => {
-        setproductData(res.data.data);
-      });
-  }, []);
-
+const PricingPlan = (props) => {
   return (
     <section className="py-20  lg:px-3">
       <div className="container lg:px-4 ">
@@ -24,46 +11,48 @@ const PricingPlan = () => {
           </span>
         </div>
         <div>
-          <div className=" grid lg:grid-cols-3 md:grid-cols-2   lg:gap-6 md:gap-6 md:px-3 lg:px-5 px-1 grid-cols-1 w-full">
-            {productData &&
-              productData.length > 0 &&
-              productData.map((item, index) => (
+          <div className=" grid lg:grid-cols-3 md:grid-cols-2   lg:gap-12 md:gap-6 md:px-3 lg:px-5 px-1 grid-cols-1 w-full">
+            {props.productVarients &&
+              props.productVarients.length > 0 &&
+              props.productVarients.map((item, index) => (
                 <div
                   key={index}
                   className={` p-6 space-y-10 rounded border shadow-pricingShadow my-3  sm:p-8 ${
-                    index == 3 ? `bg-sky-500 ` : "bg-white border-gray-200"
+                    item.variationName == "Pro"
+                      ? `bg-sky-500 `
+                      : "bg-white border-gray-200"
                   }`}
                 >
                   <div className="space-y-2">
                     <h4
                       className={`text-2xl font-bold ${
-                        index == 3 ? `text-white` : `text-black`
+                        item.variationName == "Pro"
+                          ? `text-white`
+                          : `text-black`
                       }`}
                     >
-                      {item.title}
+                      {item.variationName}
                     </h4>
                     <span
                       className={`text-6xl font-bold ${
-                        index == 3 ? `text-white` : `text-black`
+                        item.variationName == "Pro"
+                          ? `text-white`
+                          : `text-black`
                       }`}
                     >
                       {item.price}
                       <span
                         className={`text-sm tracking-wide  ${
-                          index == 3 ? `text-white` : `text-black`
+                          item.variationName == "Pro"
+                            ? `text-white`
+                            : `text-black`
                         }`}
                       >
-                        /month
+                        {item.unit}
                       </span>
                     </span>
                   </div>
-                  <p
-                    className={`leading-relaxed ${
-                      index == 3 ? `text-white` : `text-gray-800`
-                    }`}
-                  >
-                    {item.description}
-                  </p>
+
                   <ul className="flex-1 space-y-2">
                     {item.usp &&
                       item.usp.length > 0 &&
@@ -77,7 +66,9 @@ const PricingPlan = () => {
                             viewBox="0 0 20 20"
                             fill="currentColor"
                             className={`flex-shrink-0 w-6 h-6 ${
-                              index == 3 ? `text-white` : `text-sky-500`
+                              item.variationName == "Pro"
+                                ? `text-white`
+                                : `text-sky-500`
                             }`}
                           >
                             <path
@@ -86,11 +77,19 @@ const PricingPlan = () => {
                               clipRule="evenodd"
                             ></path>
                           </svg>
-                          <span className=" text-gray-800">{item2.title}</span>
+                          <span
+                            className={` ${
+                              item.variationName == "Pro"
+                                ? " text-white"
+                                : " text-gray-800"
+                            }`}
+                          >
+                            {item2}
+                          </span>
                         </li>
                       ))}
                   </ul>
-                  {index == 3 ? (
+                  {item.variationName == "Pro" ? (
                     <button
                       rel="noopener noreferrer"
                       href="#"

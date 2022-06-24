@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { MdLocationPin, MdOutlineEmail, MdLocalPhone } from "react-icons/md";
+import SeoHeadTags from "../components/SeoHeadTags";
+import { seo } from "../usefulSeo";
 import {
   onblurHandler,
   onchangeHandler,
@@ -37,8 +39,14 @@ const ContactUs = () => {
   };
 
   return (
-    <div>
-      <div className=" lg:px-10 xl:px-28 md:px-20 py-10 mt-24 md:mt-16 max-w-8xl">
+    <>
+      <SeoHeadTags
+        title={seo.contact.title}
+        description={seo.contact.description}
+        url={seo.contact.cenonicalUrl}
+        keyword={seo.contact.keyword}
+      />
+      <section className=" lg:px-10 xl:px-28 md:px-20 py-10 mt-24 md:mt-16 max-w-8xl">
         <div className=" lg:flex bg-green-200">
           <div className=" bg-sky-500 lg:w-1/2 ">
             <div className=" px-4 py-3  md:px-16 lg:px-8 xl:px-16  lg:py-10 xl:py-10 md:py-16">
@@ -170,8 +178,8 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 

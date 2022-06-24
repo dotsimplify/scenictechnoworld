@@ -6,21 +6,23 @@ const Features = () => {
       <div className="container lg:px-16  px-2  space-y-20 w-full   ">
         <div className=" pt-20">
           <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl ">
-            Aliquip definiebas ad est
+            Designed for your business needs
           </h2>
           <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">
-            Quando cetero his ne, eum admodum sapientem ut.
+            Manage your business cloud on your fingertips
           </p>
         </div>
         <div className="grid lg:gap-12 lg:grid-cols-2 lg:items-center ">
           <div>
-            <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
-              Ad vix debet docendi
+            <h3 className="text-2xl font-bold  capitalize tracking-tight sm:text-3xl ">
+              google workspace
             </h3>
-            <p className="mt-3 text-lg ">
-              Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos
-              etiam regione ut, persius eripuit quo id. Sit te euismod
-              tacimates.
+            <p className="mt-3 text-lg text-justify ">
+              Introducing Google Workspace, the next generation of desktop
+              computing that offers everything you need, when and where you need
+              it. You can access your files, email, calendar and contacts, chat
+              with your colleagues, and do it all from the cloud. With a few
+              clicks you can install on any device and be up and running.
             </p>
             <div className="mt-12 space-y-12">
               <div className="flex">
@@ -48,9 +50,9 @@ const Features = () => {
                     Per ei quaeque sensibus
                   </h4>
                   <p className="mt-2 ">
-                    Ex usu illum iudico molestie. Pro ne agam facete
-                    mediocritatem, ridens labore facete mea ei. Pro id apeirian
-                    dignissim.
+                    The new #GoogleWorkspace will open doors for you to reach
+                    more on the web with a simplified office experience that
+                    adapts to your needs.⁣⁣
                   </p>
                 </div>
               </div>
@@ -79,9 +81,8 @@ const Features = () => {
                     Cu imperdiet posidonium sed
                   </h4>
                   <p className="mt-2 ">
-                    Amet utinam aliquando ut mea, malis admodum ocurreret nec
-                    et, elit tibique cu nec. Nec ex maluisset inciderint, ex
-                    quis.
+                    No more downloading and updating, no more device switching.
+                    Work from the office, from home, or on the go!⁣⁣
                   </p>
                 </div>
               </div>
@@ -110,9 +111,8 @@ const Features = () => {
                     Nulla omittam sadipscing mel ne
                   </h4>
                   <p className="mt-2 ">
-                    At sed possim oporteat probatus, justo graece ne nec, minim
-                    commodo legimus ut vix. Ut eos iudico quando soleat, nam
-                    modus.
+                    Workspace is a place for collaborative work with up to 10
+                    people in a public or private setting.
                   </p>
                 </div>
               </div>
@@ -129,13 +129,13 @@ const Features = () => {
         <div>
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div className="lg:col-start-2">
-              <h3 className="text-2xl font-bold tracking-tight sm:text-3xl ">
-                Eam nibh gloriatur ex
+              <h3 className="text-2xl font-bold tracking-tight capitalize sm:text-3xl ">
+                microsoft-office 365
               </h3>
               <p className="mt-3 text-lg ">
-                Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te
-                latine theophrastus. Ea his tale nibh dissentias, mei exerci
-                tamquam euripidis cu.
+                We're a team of experienced Microsoft Office experts, and we've
+                spent the past decade reselling Microsoft Office and cloud
+                solutions to small businesses.
               </p>
               <div className="mt-12 space-y-12">
                 <div className="flex">
@@ -163,9 +163,9 @@ const Features = () => {
                       Cibo augue offendit has ad
                     </h4>
                     <p className="mt-2 ">
-                      An per velit appellantur, ut utinam minimum nominavi sit,
-                      odio nostro habemus ne nec. Ne sonet regione contentiones
-                      est.
+                      We understand that time is your most valuable asset, and
+                      we'll provide quick access to Microsoft Office licenses
+                      and cloud solutions at cost-effective prices.
                     </p>
                   </div>
                 </div>
@@ -194,9 +194,9 @@ const Features = () => {
                       At eum ferri luptatum lobortis
                     </h4>
                     <p className="mt-2 ">
-                      Te per quidam maiorum ocurreret, etiam delicatissimi usu
-                      ad. Ne has quod periculis. Te sit primis iisque
-                      efficiantur.
+                      Whether you're currently using these products or looking
+                      to purchase them for the first time, we can help you find
+                      the best ways to save money.
                     </p>
                   </div>
                 </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import { officeBusiness } from "../../dummy/officeBussiness";
-import { officeEnterprise } from "../../dummy/officeEnterpriseData";
+import { officeBusiness } from "../../usefulData/officeBussiness";
+import { officeEnterprise } from "../../usefulData/officeBussiness";
 import TableTopRow from "./TableTopRow";
 
 const CompareTable = (props) => {

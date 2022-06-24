@@ -38,8 +38,9 @@ const PricingComparison = () => {
           <div className=" absolute bg-white w-full border border-gray-300 rounded-md">
             {List &&
               List.length > 0 &&
-              List.map((item) => (
+              List.map((item, index) => (
                 <h3
+                  key={index}
                   className=" py-2 my-1 px-3 text-gray-800 font-medium"
                   onClick={() => {
                     setDropDown(false);
