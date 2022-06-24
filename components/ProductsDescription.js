@@ -7,7 +7,7 @@ const ProductsDescription = () => {
       <div className="  space-y-12 ">
         <div className="flex flex-col overflow-hidden rounded-md border border-gray-300  lg:flex-row ">
           <img
-            src="/Images/AWS.jpg"
+            src="/images/AWS.jpg"
             alt=""
             className="h-[21rem]  aspect-video"
           />
@@ -36,7 +36,7 @@ const ProductsDescription = () => {
             </p>
             <CustomButton className="w-28 py-2" buttonText="Action" />
           </div>
-          <img src="/Images/az.png" alt="" className="h-[21rem] " />
+          <img src="/images/az.png" alt="" className="h-[21rem] " />
         </div>
       </div>
     </section>
